@@ -7,7 +7,9 @@ body {
    background-blend-mode: mix;
    background-size:contain;
 }
-
+h1 {
+    color: white
+}
 .tile-container {
     width: 450%;
     display: flex;
