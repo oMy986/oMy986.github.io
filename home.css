@@ -1,15 +1,6 @@
-body {
-   background-image: url("images/background.png");
-   background-repeat:no-repeat;
-   background-attachment: fixed;
-   background-color: #000000;
-   background-position: 90%;
-   background-blend-mode: mix;
-   background-size:contain;
-}
-h1 {
-    color: white
-}
+/*h1 {
+    color: white; 
+}*/
 .tile-container {
     width: 450%;
     display: flex;
