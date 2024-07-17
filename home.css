@@ -1,6 +1,11 @@
-/*h1 {
+h1 {
     color: white; 
-}*/
+}
+body {
+    font-family:monospace;
+    background-image: url(images/background.png);
+    background-size: cover;
+}
 .tile-container {
     width: 450%;
     display: flex;
