@@ -4,15 +4,9 @@ h1 {
 body {
     font-family:monospace;
     background-image: url(images/background.png);
+    background-repeat: no-repeat;
     background-size: cover;
 }
-.tile-container {
-    width: 450%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5vw;
-}
-
 
 .tile {
     position: relative;
