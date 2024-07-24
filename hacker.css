@@ -9,12 +9,6 @@ body {
     background-image: url(images/hacking.jpg);
     background-size: cover;
 }
-.tile-container {
-    width: 450%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5vw;
-}
 
 
 .tile {
@@ -64,8 +58,4 @@ body {
 
 .tile:hover:after {
     opacity: 1;
-}
-
-#image {
-    background-image: url(oMy986.github.io\images\foxpfp.png);
 }
