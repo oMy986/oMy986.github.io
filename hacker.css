@@ -1,9 +1,12 @@
 h1 {
     color: white; 
 }
+p {
+    color: white;
+}
 body {
     font-family:monospace;
-    background-image: url(images/background.png);
+    background-image: url(images/hacking.jpg);
     background-size: cover;
 }
 .tile-container {
