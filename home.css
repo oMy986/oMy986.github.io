@@ -1,11 +1,11 @@
 h1 {
     color: white; 
 }
+p {
+    color: white;
+}
 body {
     font-family:monospace;
-    background-image: url(images/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .tile {
