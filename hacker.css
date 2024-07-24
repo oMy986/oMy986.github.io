@@ -27,6 +27,7 @@ body {
     overflow: hidden;
 
     font-size: 14px;
+
 }
 
 .tile img {
@@ -63,4 +64,8 @@ body {
 
 .tile:hover:after {
     opacity: 1;
+}
+
+#image {
+    background-image: url(oMy986.github.io\images\foxpfp.png);
 }
