@@ -4,60 +4,21 @@ h1 {
 body {
     font-family:monospace;
     background-image: url(images/background.png);
-    background-size: cover;
-}
-.tile-container {
-    width: 450%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5vw;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-
-.tile {
-    position: relative;
-    border-radius: 15px;
-    
-    transition: transform 0.3s ease;
-    
-    display: inline-block;
+.button1 {
+    border-radius: 25px;
+    background-image: url("images/codebrackets.png");
+    padding: 25;   
     overflow: hidden;
-
-    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.tile img {
-    display: block;
-    /* width: 400px; */
-    
-    width: 250px;
-    height: auto;
-    
-    transition: transform 0.3s ease;
-}
-
-.tile:hover img {
-    transform: scale(1.05);
-    filter: brightness(70%);
-}
-
-.tile:after {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    content: attr(data-title);
-    color: white;
-    text-align: center;
-    white-space: nowrap;
-    font-size: 14px;
-    
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    pointer-events: none;
-}
-
-.tile:hover:after {
-    opacity: 1;
+#id{
+    border-radius: 25px;
+    object-fit: cover;
 }
