@@ -1,7 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K4WQPY22SB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K4WQPY22SB');
+</script>
     <link rel="stylesheet" href="home.css">
+    <title>oMy986 - Home</title>
+    <style>
+        body {
+            background-image: url(images/background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -9,11 +26,15 @@
     </header>
 
     <section class="container">
-        <button class="button1" id="redirectButton">
-            <img src=images/codebrackets.png  id="picture">
-        </button>
+        <a href="sites.html" class="tile" data-title="sites ive made"><img src="images/sites.jpg" /></a>
+        <a href="downloads.html" class="tile" data-title="downloads"><img src="images/download.jpg" /></a>
     </section>
-    <script src="scripts.js"></script>
 
+
+    <section class="container">
+        <a href="playecho.html" class="tile" data-title="go install echo!!!"><img src="images/echobanner.jpg" /></a>
+        <a href="stolen.html" class="tile" data-title="people ive taken code from"><img src="images/codebrackets.png" /></a>
+        <a href="socialslink.html" class="tile" data-title="socials"><img src="images/pfp.png" /></a>
+    </section>
 </body>
 </html>

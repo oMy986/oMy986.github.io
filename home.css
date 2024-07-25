@@ -1,24 +1,62 @@
 h1 {
     color: white; 
 }
+p {
+    color: white;
+}
 body {
     font-family:monospace;
-    background-image: url(images/background.png);
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
-.button1 {
-    border-radius: 25px;
-    background-image: url("images/codebrackets.png");
-    padding: 25;   
-    overflow: hidden;
+
+.container{
     display: flex;
-    align-items: center;
     justify-content: center;
+    flex-direction: row;
+    padding: 50px;
+    margin: 50px;
 }
 
-#id{
-    border-radius: 25px;
-    object-fit: cover;
+.tile {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+.tile img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.tile:hover img {
+    transform: scale(1.05);
+    filter: brightness(50%);
+}
+
+.tile:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    content: attr(data-title);
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 14px;
+    
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.tile:hover:after {
+    opacity: 1;
 }
