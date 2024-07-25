@@ -8,25 +8,30 @@ body {
     font-family:monospace;
 }
 
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 50px;
+    margin: 50px;
+}
+
 .tile {
+    width: 200px;
+    height: 100px;
     position: relative;
     border-radius: 15px;
-    
     transition: transform 0.3s ease;
-    
     display: inline-block;
     overflow: hidden;
-
     font-size: 14px;
 }
 
 .tile img {
     display: block;
-    /* width: 400px; */
-    
-    width: 250px;
-    height: auto;
-    
+    width: 100%;
+    height: 100%;
     transition: transform 0.3s ease;
 }
 
