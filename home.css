@@ -13,19 +13,21 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding: 50px;
+    padding: 10px;
     margin: 50px;
+    
 }
 
 .tile {
     width: 200px;
-    height: 100px;
+    height: 200px;
     position: relative;
-    border-radius: 15px;
+    border-radius: 50px;
     transition: transform 0.3s ease;
     display: inline-block;
     overflow: hidden;
     font-size: 14px;
+    padding: 10px;
 }
 
 .tile img {
